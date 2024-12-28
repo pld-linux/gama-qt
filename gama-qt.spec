@@ -1,3 +1,4 @@
+# note: for qt6 based variant (qgama 2.x) see qgama.spec)
 Summary:	Qt based GUI for GNU Gama project
 Summary(pl.UTF-8):	Oparty na Qt graficzny interfejs do projektu GNU Gama
 Name:		gama-qt
