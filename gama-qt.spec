@@ -46,7 +46,7 @@ precyzyjnych pomiarach inżynierskich), gdzie nie można użyć GPS-a
 %prep
 %setup -q -n qt-gama-qt-%{fver} -a1
 ln -s gama-%{gama_ver} gama
-%patch0 -p1
+%patch -P0 -p1
 
 %define qt5_ver	%(rpm -q Qt5Core-devel)
 %if "%{_ver_lt '%{qt5_ver}' '5.15'}" == "1"
